@@ -1,0 +1,361 @@
+body{
+    margin: 0%;
+    padding: 0%;
+    height: 1220px;
+    background-color: #EDEDED;
+}
+
+.body-div{
+    height: 55%;
+    width: auto;
+    background-color: #3D087B;
+    margin: 10% 6% 10% 6%;
+    box-sizing: border-box;
+    font-family: 'Manrope', sans-serif;
+}
+
+
+.main-container{
+    /* border: 3px solid red; */
+    height: 95%;
+    margin-left: 9%;
+    margin-right: 9%;
+    display: flex;
+    position: relative;
+}
+
+
+.grid-container1{
+    /* border: 2px solid yellow; */
+    height: 90%;
+    width: 50%;
+    margin-top: 2%;
+    margin-right: 1.5%;
+    display: grid;
+    grid-template-rows: 14% 51% 10% 7%;
+    grid-template-columns: 50%;
+    grid-row-gap: 14px;
+}
+
+
+#clock-pic{
+    /* border: 2px solid red; */
+    background-image: url(./assets/clock_logo.png);
+    background-repeat: no-repeat;
+}
+
+#left-second-container{
+    /* border: 2px solid yellow; */
+    background-color: white;
+    border-radius: 10px;
+    position: relative;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    border-radius: 10x;
+}
+
+.left-second-container-inner{
+    /* border: 1px solid red; */
+    height: 24.5%;
+    width: auto;
+    position: relative;
+}
+
+
+
+
+#img-div1{
+    height: 100%;
+    width: 15%;
+    background-image: url(./assets/wake_up.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    display: inline-block;
+}
+
+#option-div1{
+    height: 100%;
+    width: 80%;
+    display: inline-block;
+    position: absolute;
+    top: 26%;
+    left: 16%;
+    color: #3D087B;
+}
+
+#wakeup-timeselector{
+    height: 30px;
+    width: 55%;
+    margin-left: 28px;
+    color: #3D087BDE;
+    border-radius: 3px;
+    border-color: lightgrey;
+}
+
+
+
+
+#img-div2{
+    height: 100%;
+    width: 15%;
+    background-image: url(./assets/lunch_time.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    display: inline-block;
+}
+
+#option-div2{
+    height: 100%;
+    width: 80%;
+    display: inline-block;
+    position: absolute;
+    top: 28%;
+    left: 17%;
+    color: #3D087B;
+}
+
+#lunch-timeselector{
+    height: 30px;
+    width: 55%;
+    margin-left: 45px;
+    color: #3D087BDE;
+    border-radius: 3px;
+    border-color: lightgrey;
+}
+
+
+
+
+#img-div3{
+    height: 100%;
+    width: 15%;
+    background-image: url(./assets/nap_time.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    display: inline-block;
+}
+
+#option-div3{
+    height: 100%;
+    width: 80%;
+    display: inline-block;
+    position: absolute;
+    top: 28%;
+    left: 17%;
+    color: #3D087B; 
+}
+
+#nap-timeselector{
+    height: 30px;
+    width: 55%;
+    margin-left: 57px;
+    color: #3D087BDE;
+    border-radius: 3px;
+    border-color: lightgrey;
+}
+
+
+
+
+#img-div4{
+    height: 100%;
+    width: 15%;
+    background-image: url(./assets/night_time.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 50px;
+    display: inline-block;
+}
+
+#option-div4{
+    height: 100%;
+    width: 80%;
+    display: inline-block;
+    position: absolute;
+    top: 29%;
+    left: 17%;
+    color: #3D087B;
+}
+
+#night-timeselector{
+    height: 30px;
+    width: 55%;
+    margin-left: 49px;
+    color: #3D087BDE;
+    border-radius: 3px;
+    border-color: lightgrey;
+}
+
+
+
+
+#left-third-container{
+    /* border: 2px solid green; */
+    grid-column-start: 1;
+    grid-column-end: 3;
+    border-radius: 10px;
+    color: white;
+    background-color: #693daf;
+    font-weight: 900;
+    font-size: larger;
+    padding-left: 4%;
+    padding-top: 2.5%;
+}
+
+
+#set-alarm{
+    /* border: 2px solid yellow; */
+    border-radius: 5px;
+    color: white;
+    font-size: x-large;
+    text-align: center;
+    padding-top: 2%;
+    background-image: linear-gradient(to right , #6E54EC , #CB52F8 , #FC5EFF, #F1A7C5);
+}
+
+
+#time-table{
+    /* border: 2px solid white; */
+    height: 75px;
+    margin-left: 11px;
+    border-radius: 8px;
+    background-color: #693daf;
+    color: #F25CFE;
+    padding-left: 14px;
+    padding-top: 10px;
+    font-size: small;
+    font-family: manrope;
+    letter-spacing: 0.5px;
+}
+
+
+
+
+
+.grid-container2{
+    /* border: 3px solid green; */
+    height: 80%;
+    width: 50%;
+    margin-top: 2%;
+    display: grid;
+    grid-template-rows: 28% 17% 50%;
+    grid-template-columns: 100%;
+    grid-row-gap: 14px;
+}
+
+
+#digital-clock{
+    /* border: 3px solid yellow; */
+    background-color: white;
+    margin-bottom: 29px;
+    border-radius: 10px;
+    position: relative;
+}
+
+
+
+#lb1{
+    border: 2px solid green;
+    height: 100%;
+    width: 70%;
+    position: absolute;
+    top: 10px;
+    left: 15%;
+    margin: auto;
+    opacity: 0.75;
+    z-index: -1;
+    background-color: white;
+    border-radius: 10px;
+}
+
+#lb2{
+    border: 2px solid brown;
+    height: 100%;
+    width: 60%;
+    position: absolute;
+    top: 20px;
+    left: 20%;
+    margin: auto;
+    opacity: 0.25;
+    z-index: -2;
+    background-color: white;
+    border-radius: 10px;
+}
+
+
+
+
+.clock-div{
+    height: 75%;
+    width: 90%;
+    /* background-color: skyblue; */
+    margin-left: 22px;
+    margin-top: 14px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.clock{
+    height: 100%;
+    width: 70px;
+    background-color: yellow;
+    border-radius: 6px;
+}
+
+
+#time-div{
+    background-color: white;
+    color: #3D087B;
+    text-align: center;
+    font-size: 25px;
+}
+
+#hour-div{
+    background-image: url(./assets/timeline.png);
+    color: #5F0089;
+    text-align: center;
+}
+
+#min-div{
+    background-color: #F6E2FF;
+    color: #5F0089;
+    text-align: center;
+}
+
+#sec-div{
+    background-color: #F6E2FF;
+    color: #5F0089;
+    text-align: center;
+}
+
+#am-pm-div{
+    background-image: url(./assets/AM_svg.png);
+    color: white;
+    text-align: center;
+    font-size: 28px;
+}
+
+
+
+
+
+#right-second-container{
+    /* border: 2px solid red; */
+    background-color: white;
+    color: #8E53F0;
+    border-radius: 10px;
+    font-weight: 900;
+    font-size: larger;
+    padding-left: 7%;
+    padding-top: 5.5%;
+}   
+
+
+
+#right-third-container{
+    border: 2px solid white;
+    border-radius: 10px;
+    background-image: url(./assets/Component\ 30\ –\ 1.png);
+    background-repeat: round;
+}
+
